@@ -1,11 +1,17 @@
 .head-title[ 
-    font-family: 
-    font-style: 
-    font-weight:
-    font-size: 
+    display: block;    
+    font-family:'Playfair Display',Georgia,"Times New Roman",serif
+    font-style: normal
+    font-weight: bold
+    text-transform: none
+    text-dekoration: none
+    font-size: 28px
+    padding-bottom: 10px;
+    line-height: 1em;
+    
     line-height: 
     letter-spacing: 
-    color: 
+    colour: #874619
     margin-top:
     margin-left: 
 ]
