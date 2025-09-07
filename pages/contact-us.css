@@ -1,0 +1,152 @@
+/* .playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+
+
+header {
+    margin-bottom: 0px;
+    width: 100%;
+    max-height: fit-content;
+}
+
+header, img {
+    /* max-height: 100%; */
+    /* margin-top: -100px;
+    margin-left: -100px; */
+    border-image: stretch;
+    margin-top: -70px;
+    margin-left: -10px;
+    margin-bottom: 0; /* funkar inte? */
+    max-height: ;
+
+    /* background-size: 100%; */
+
+    /* box-sizing: border-box; */
+    
+    /* height: 100%; */
+}
+
+.main-text {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    background-color: #eeeeee;
+}
+
+h1 {
+    color: #874619;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+.describing-text {
+    color: #121212;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.finns-på-info {
+    /* Lato', Helvetica, Arial, Lucida, sans-serif; */
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 14px;
+}
+
+.buttons {
+    font-size: 30px;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+} /*funkar inte*/
+
+.skriv-section {
+    /* text-align: center; */
+    
+}
+
+.skriv-till-oss {
+    /* font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    /*font-style: normal; */
+
+  
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+
+}
+
+.skriv-name, .skriv-e-mail {
+    width: 415px;
+    height: 17px;
+    background-color: #eeeeee;
+    border: none;
+    padding: 16px;
+    outline: none;
+    
+    
+}
+
+.skriv-name {
+    margin-right: 26px;
+}
+
+.skriv-e-mail {
+
+}
+
+.skriv-meddelande {
+    width: 892px;
+    height: 118px;
+    background-color: #eeeeee;
+    border: none;
+    padding: 16px;   
+    outline: none;
+    
+}
+
+.skicka-btn {
+    width: 128px;
+    height: 46px;
+    /* padding: 5px, 13px, 5px, 36px; */
+    background-color: #874619;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px; /* not working, need to link to proper style in google fonts? */
+    font-size: 18px;
+    margin-left: 800px; /* ändra efter att flyttat hela */
+
+}
+
+

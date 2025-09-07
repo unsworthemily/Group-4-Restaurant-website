@@ -9,24 +9,62 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/edb0868ad4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <img src="images/rise-contact-us(1).jpg" alt="ris-header-contact-us">
+    <header class="header">
+        <img src="/images/rise-contact-us(1).jpg" alt="ris-header-contact-us">
         <!-- Navigation bar -->
     </header>
-    <section>
+    <section class="main-text">
         <h1>Kontakta oss</h1>
-        <p> <img src="images/rise-contact-us(1).jpg" alt="ris-header-contact-us"></p>
-        <p></p>
-        <button></button>
-        <button></button>
+        <p class="describing-text">Ni kan nå oss både via telefon och e-post. För tidsbokning ber vi er vänligen att ringa, 042 -14 10 07.</p>
+        <p> <h4>   VI FINNS PÅ</h4>
+                <div class="finns-på-info">
+                    <p>Drottninggatan 24,
+                    <br>
+                    252 21 Helsingborg</p>
+                    <p>info@restaurang-tajmahal.com
+                    <br>
+                    042 -14 10 07</p>
+                </div>
+        </p>
+        <div class="buttons">   <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+        </div>
     </section>
-    <section>
-        <!--skriv till oss-->
+    <section class="skriv-section"> <!--skriv till oss-->
+        <h4 class="skriv-till-oss">SKRIV TILL OSS</h4>
+        <div>
+            <input class="skriv-name" type="name">
+            <input class="skriv-e-mail" type="e-mail">
+            <br>
+            <br>
+            <input class="skriv-meddelande" type="message">
+            <br>
+            <button class="skicka-btn"> > SKICKA</button>
+            <br>
+            <br>
+        </div>
     </section>
     <section>
         <!--karta-->
+
+        <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+        function myMap() {
+        var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
     </section>
 
 </body>
