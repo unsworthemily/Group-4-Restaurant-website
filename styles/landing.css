@@ -37,6 +37,7 @@
     width: 80px;
     background-size: cover;
     background-image: url(/images/newlogo.png);
+    animation:;
     background-color: beige;
     margin-top: 10px;
   
@@ -98,26 +99,30 @@
     }
 }
 button{
-    background-color:beige;
-    margin: 30px;
-    border-radius: 10%;
+    background-color:rgba(128, 36, 36, 0.822);
+    margin: 20px;
+    height:50px;
+    width:200px;
+    color:white;
+    border-radius: 40%;
+    border-color: white;
 }
 
 button:hover{
     color: burlywood;
-    border: 2px solid black;
+    border: 2px solid brown;
 }
 
 
 
 .titlecontainer{
-    height: 1000px;
+    height: 700px;
     width: 1000px;
 }
 .titlediv{
-    height: 600x;
-    width: 600px;
-    font-family: Playfair display, Georgia, 'Times New Roman', Times, serif;
+    height: 500x;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #874619;
     display: inline-block;
     justify-content: center;
@@ -126,15 +131,50 @@ button:hover{
     
 }
  .titlediv h1{
-    font-size: 50px;
+    font-size: 40px;
+    font-style: italic;
     text-align: center;
     font-weight: bolder;
     text-decoration: underline;
  }
 
- .titlediv h4 h5{
-    font-size: 40px;
+ .titlediv h4 ,h5{
+    color:black;
+    font-size: 20px;
     font-weight: bold;
+    display:flex;
     justify-content: center;
     text-align: center;
+    margin:10px;
+ }
+ .titlediv p {
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:black;
+ }
+ .alignment{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ }
+ .imagecontainer{
+    background-repeat: no-repeat;
+    font-style: italic;
+    background-image: url(../images/food.jpg);
+    background-size: cover;
+    min-height: 800px;
+    width:100%;
+    color: black;
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+ }
+ .footer{
+    height: 400px;
+    width: 100%;
+    background-color: #323434;
+
  }
