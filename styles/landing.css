@@ -33,25 +33,21 @@ html, body {
     font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
-
 }
-
 
 .logo {
     height: 80px;
     width: 80px;
     background-size: cover;
     background-image: url(/images/newlogo.png);
-    animation:;
     background-color: beige;
     margin-top: 10px;
-  
 }
 
 .border{
     border: 1.5px solid transparent;
-
 }
+
 .border:hover{
     border: 1.5px solid black;
 }

@@ -14,17 +14,19 @@
 </head>
 
 <body>
+    <!--this is header section-->
     <header>
         <nav class="navbar">
             <div class="navdiv animate__animated animate__zoomIn repeat 4s">
                 <div class="logo border"><a href="#"> </a></div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-
+              <nav>
+                 <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Gallery</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                 </ul>
+              </nav>
             </div>
         </nav>
     </header>
@@ -75,28 +77,8 @@
         
         </section>
       </main>
-     <footer> 
-    <!--karta-->
-
-        <div id="googleMap" style="width:100%;height:400px;"></div>
-
-<script>
-        function myMap() {
-        var mapProp= {
-        center:new google.maps.LatLng(51.508742,-0.120850),
-        zoom:5,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-        </script>
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-
-    
-
-
-
-
+ <footer> 
+      
         
   </footer>
 </body>
