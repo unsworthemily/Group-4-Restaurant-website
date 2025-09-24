@@ -3,69 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles/">
-    <link rel="stylesheet" href="../styles/contact-us.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/new.css">
     <script src="https://kit.fontawesome.com/edb0868ad4.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <img src="/images/rise-contact-us(1).jpg" alt="ris-header-contact-us">
-        <!-- Navigation bar -->
+    <nav></nav>
+    <header>
+        <img class="header-image" src="/images/rise-contact-us(1).jpg" alt="rise-header">
     </header>
-    <section class="main-text">
-        <h1>Kontakta oss</h1>
-        <p class="describing-text">Ni kan nå oss både via telefon och e-post. För tidsbokning ber vi er vänligen att ringa, 042 -14 10 07.</p>
-        <p> <h4>   VI FINNS PÅ</h4>
-                <div class="finns-på-info">
-                    <p>Drottninggatan 24,
-                    <br>
-                    252 21 Helsingborg</p>
-                    <p>info@restaurang-tajmahal.com
-                    <br>
-                    042 -14 10 07</p>
-                </div>
+    <div class="info-container">
+        <h1>Contact Us</h1>
+        <p> You can reach us both via phone and email. For reservations, please call +46 (0)42-19 38 00</p>
+        <h4 class="title-contact-info">YOU CAN REACH US HERE</h4>
+        <p class="address"> Sundsgårdens Folkhögskola <br> <!--är det ok m br här?-->
+            Örbyvägen 10, 257 30 Rydebäck</p>
+        <p class="mail-and-phone"> info@tastebuds.com <br>
+            +46 (0)42-19 38 00</p>
+        <p><i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
         </p>
-        <div class="buttons">   <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-square-instagram"></i>
-        </div>
-    </section>
-    <section class="skriv-section"> <!--skriv till oss-->
-        <h4 class="skriv-till-oss">SKRIV TILL OSS</h4>
-        <div>
-            <input class="skriv-name" type="name">
-            <input class="skriv-e-mail" type="e-mail">
-            <br>
-            <br>
-            <input class="skriv-meddelande" type="message">
-            <br>
-            <button class="skicka-btn"> > SKICKA</button>
-            <br>
-            <br>
-        </div>
-    </section>
-    <section>
-        <!--karta-->
+    </div>
+    
+        <form class="write-to-us-container" action="">
+            <h4 class="write-to-us">WRITE TO US</h4>
+            <div class="inputs">
+                <input class="input-name" placeholder="Your name (mandatory)" type="text" name="" id="">
+                <input class="input-email" placeholder="Your e-mail (mandatory)" type="text">
+            </div>
+            <textarea class="message" placeholder="Your message" name="message" id=""></textarea>
+            <!-- <button class="button">SKICKA</button> -->
+            <input class="button" type="submit" value="SEND">
+        </form>
 
-        <div id="googleMap" style="width:100%;height:400px;"></div>
-
-<script>
-        function myMap() {
-        var mapProp= {
-        center:new google.maps.LatLng(51.508742,-0.120850),
-        zoom:5,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-        </script>
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-
-    </section>
-
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2231.790237732663!2d12.75621057711289!3d55.98766337387669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465234a901be67fb%3A0x6f20292517f7837f!2sSundsg%C3%A5rdens%20Folkh%C3%B6gskola!5e0!3m2!1ssv!2sse!4v1758530362382!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </body>
 </html>
