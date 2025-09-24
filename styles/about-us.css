@@ -1,112 +1,36 @@
+*{margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    background: rgb(67, 9, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 100px;
+}
+.navdiv-animate-animated-animate-zoomIn-repeat-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .head-title{
     display: block;    
     font-family:'Playfair Display',Georgia,"Times New Roman",serif;
     font-style: normal;
     font-weight: bold;
     text-transform: none;
-    text-dekoration: none;
     font-size: 28px;
     padding-bottom: 10px;
-    line-height: 1em;
-    letter-spacing: 
-    color: #874619;
-    margin-top:
-    margin-left: 
+    line-height: 1em; 
+    color: #874619; 
 }
-
 .head-info{
-    font-family:'lato', helvetica, Arial,Lucida, sans-serif
-    font-size: 14px
-    color: #121212
+    font-family:'lato', helvetica, Arial,Lucida, sans-serif;
+    font-size: 14px;
+    color: #121212;
 }
-
-
-
-.main-title[
-    font-family: 
-    font-style: 
-    font-weight:
-    font-size: 
-    line-height: 
-    letter-spacing: 
-    color: 
-    margin-top:
-    margin-left: 
-]
-
-
-.main-info[
-    font-family: 
-    font-style: 
-    font-weight:
-    font-size: 
-    line-height: 
-    letter-spacing: 
-    color: 
-    margin-top:
-    margin-left: 
-]
-
-
-.founders-title[
-    font-family: 
-    font-style: 
-    font-weight:
-    font-size: 
-    line-height: 
-    letter-spacing: 
-    color: 
-    margin-top:
-    margin-left: 
-]
-
-
-.fonders-info[
-    font-family: 
-    font-style: 
-    font-weight:
-    font-size: 
-    line-height: 
-    letter-spacing: 
-    color: 
-    margin-top:
-    margin-left: 
-]
-
-
-.contact-title[
-    font-family: 
-    font-style: 
-    font-weight:
-    font-size: 
-    line-height: 
-    letter-spacing: 
-    color: 
-    margin-top:
-    margin-left: 
-]
-
-
-.contact-info[
-    font-family: 
-    font-style: 
-    font-weight:
-    font-size: 
-    line-height: 
-    letter-spacing: 
-    color: 
-    margin-top:
-    margin-left: 
-]
-.footer-info[
-    font-family: 
-    font-style: 
-    font-weight:
-    font-size: 
-    line-height: 
-    letter-spacing: 
-    color: 
-    margin-top:
-    margin-left: 
-]
-
