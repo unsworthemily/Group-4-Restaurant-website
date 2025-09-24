@@ -1,33 +1,25 @@
-.head-title[ 
+.head-title{
     display: block;    
-    font-family:'Playfair Display',Georgia,"Times New Roman",serif
-    font-style: normal
-    font-weight: bold
-    text-transform: none
-    text-dekoration: none
-    font-size: 28px
+    font-family:'Playfair Display',Georgia,"Times New Roman",serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: none;
+    text-dekoration: none;
+    font-size: 28px;
     padding-bottom: 10px;
     line-height: 1em;
-    
-    line-height: 
     letter-spacing: 
-    colour: #874619
+    color: #874619;
     margin-top:
     margin-left: 
-]
+}
 
-
-.head-info[
+.head-info{
     font-family:'lato', helvetica, Arial,Lucida, sans-serif
-    font-style: 
-    font-weight:
     font-size: 14px
-    line-height: 
-    letter-spacing: 
     color: #121212
-    margin-top:
-    margin-left: 
-]
+}
+
 
 
 .main-title[
