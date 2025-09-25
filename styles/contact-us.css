@@ -170,7 +170,7 @@ iframe {
 footer {
     height: 438px;
     width: 100%;
-    background-color: #323434;
+    background: rgb(67, 9, 9);;
     position: relative;
 }
 .footer-content {
