@@ -7,32 +7,69 @@
     max-width: 100%;
     overflow-x: hidden;
 }
-
-.navbar{
+.header{}
+.navbar-container{
     background: rgb(67, 9, 9);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-right: 15px;
     padding-left: 15px;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-logo{
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+.ul{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
 }
 .navdiv-animate-animated-animate-zoomIn-repeat-4{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
+.logo {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+.home{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;}
+.gallery{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+}
+.about-us{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;}
+.contact-us{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;}
+
+.background{
+
+}
 .head-title{
-    display: block;    
-    font-family:'Playfair Display',Georgia,"Times New Roman",serif;
-    font-style: normal;
-    font-weight: bold;
-    text-transform: none;
-    font-size: 28px;
-    padding-bottom: 10px;
-    line-height: 1em; 
-    color: #874619; 
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 200px;
 }
 .head-info{
-    font-family:'lato', helvetica, Arial,Lucida, sans-serif;
-    font-size: 14px;
-    color: #121212;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+
 }
