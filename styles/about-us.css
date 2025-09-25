@@ -3,13 +3,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
-
 .body{max-width: 100%;
     overflow-x: hidden;}
-
 /*header start*/
-.header{}
-
 .navbar{
     background: rgb(67, 9, 9);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,25 +13,21 @@
     padding-left: 15px;
     height: 100px;
 }
-
 .navdiv{
     display: flex;
     align-items: center;
     justify-content: space-between;
  }
-  
  li{
     list-style: none;
     display: inline-block;
  }
-
- li a{
+li a{
     color: white;
     font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
 }
-
 .logo {
     height: 80px;
     width: 80px;
@@ -44,75 +36,16 @@
     background-color: beige;
     margin-top: 10px;
 }
-
 .border{
     border: 1.5px solid transparent;
 }
-
 .border:hover{
     border: 1.5px solid black;
 }
-
-
 /*header end*/
-
-/*main start*/
-      
+/*main start*/  
  /*del 2 content start*/
 
-.content{}
-.content-container{
-    background-color: #2badc4;
-}
-.top-content-container{background-color: #27ba3d;}
-.top-title-h1{font-size: 30px;
-    color: white;
-    margin-bottom: 5px;
-    margin-top: 200px;
-}
-.top-content-info-h2{}
-.middle-container{}
-.middle-title-h2{}
-.middle-info-p{font-size:15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color:black;
-}
-                           
-                    
-.bottom-container{background-color: #dea131;}
-.bottom-title-h3{}
-.botom-fonders-info-h4{}
- /*del 1 content end*/  
-                   
-/*del 2 kontakt start*/   
-.contact{background-color: blue;}
-.contact-container{background-color: rgb(220, 198, 32);}
-.contact-title-h2{}
-
-.contact-info-p{font-size:15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color:black;
-}
- /*del 2 kontakt end*/  
-
-/*main end*/   
-
-/*footer start*/
-.footer-about-us{}
-
-.footer-section{ }
-.footer-div{}
-.fa-brands-fa-facebook{}
-.fa-brands-fa-instagram{}
-.fa-solid-fa-location-dot{}
-
-/*footer end*/
         
 
 
@@ -160,48 +93,3 @@
 
 
 
-
-
-
-.header{}
-
-.navbar-logo{
-    height: 80px;
-    width: 80px;
-    margin-top: 10px;
-}
-.ul{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;
-}
-.navdiv-animate-animated-animate-zoomIn-repeat-4{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo {
-    height: 80px;
-    width: 80px;
-    margin-top: 10px;
-}
-
-
-.background{
-
-}
-.head-title{
-    font-size: 30px;
-    color: white;
-    margin-bottom: 5px;
-    margin-top: 200px;
-}
-.head-info{
-    font-size: 40px;
-    font-style: italic;
-    text-align: center;
-    font-weight: bolder;
-    text-decoration: underline;
-
-}
