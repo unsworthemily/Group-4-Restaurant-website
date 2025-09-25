@@ -3,11 +3,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 }
-.body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+
+.body{max-width: 100%;
+    overflow-x: hidden;}
+
 .header{}
+    
 .navbar-container{
     background: rgb(67, 9, 9);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -15,8 +16,156 @@
     padding-left: 15px;
     height: 100px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;}
+                
+.nav-logo{}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-image: url(/images/newlogo.png);
+    animation:;
+    background-color: beige;
+    margin-top: 10px;
 }
+.ul{display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    
+}
+.li{
+    list-style: none;
+    display: inline-block;
+ }
+
+.li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+
+.home{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;}
+.gallery{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;}
+.about-us{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;}
+.contact-us{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;}
+              
+                
+        
+
+        <main>
+            <!--2-huvudgrupper-i-main-->
+
+.content{}
+.content-container{
+    background-color: #2badc4;
+}
+.top-content-container{background-color: #27ba3d;}
+.top-title-h1{font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 200px;
+}
+.top-content-info-h2{}
+.middle-container{}
+.middle-title-h2{}
+.middle-info-p{font-size:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:black;
+}
+                           
+                    
+.bottom-container{background-color: #dea131;}
+.bottom-title-h3{}
+.botom-fonders-info-h4{}
+                   
+                 <!--del 2 Kontakt-->
+.contact{background-color: blue;}
+.contact-container{background-color: rgb(220, 198, 32);}
+.contact-title-h2{}
+
+.contact-info-p{font-size:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:black;
+}
+                    <!--del 2 Kontakt-->     
+.footer-about-us{}
+
+.footer-section{ }
+.footer-div{}
+.fa-brands-fa-facebook{}
+.fa-brands-fa-instagram{}
+.fa-solid-fa-location-dot{}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{}
+
 .navbar-logo{
     height: 80px;
     width: 80px;
@@ -38,23 +187,7 @@
     width: 80px;
     margin-top: 10px;
 }
-.home{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;}
-.gallery{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;
-}
-.about-us{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;}
-.contact-us{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;}
+
 
 .background{
 
