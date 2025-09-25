@@ -7,66 +7,58 @@
 .body{max-width: 100%;
     overflow-x: hidden;}
 
+/*header start*/
 .header{}
-    
-.navbar-container{
+
+.navbar{
     background: rgb(67, 9, 9);
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-right: 15px;
     padding-left: 15px;
     height: 100px;
-    display: flex;
-    flex-direction: row;}
-                
-.nav-logo{}
+}
 
-.logo{
-    height: 80px;
-    width: 80px;
-    background-size: cover;
-    background-image: url(/images/newlogo.png);
-    animation:;
-    background-color: beige;
-    margin-top: 10px;
-}
-.ul{display: flex;
-    flex-direction: row;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;
-    
-}
-.li{
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+  
+ li{
     list-style: none;
     display: inline-block;
  }
 
-.li a{
+ li a{
     color: white;
     font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
 }
 
+.logo {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-image: url(/images/newlogo.png);
+    background-color: beige;
+    margin-top: 10px;
+}
 
-.home{font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;}
-.gallery{font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;}
-.about-us{font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;}
-.contact-us{font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: white;}
-              
-                
-        
+.border{
+    border: 1.5px solid transparent;
+}
 
-        <main>
-            <!--2-huvudgrupper-i-main-->
+.border:hover{
+    border: 1.5px solid black;
+}
+
+
+/*header end*/
+
+/*main start*/
+      
+ /*del 2 content start*/
 
 .content{}
 .content-container{
@@ -93,8 +85,9 @@
 .bottom-container{background-color: #dea131;}
 .bottom-title-h3{}
 .botom-fonders-info-h4{}
+ /*del 1 content end*/  
                    
-                 <!--del 2 Kontakt-->
+/*del 2 kontakt start*/   
 .contact{background-color: blue;}
 .contact-container{background-color: rgb(220, 198, 32);}
 .contact-title-h2{}
@@ -106,7 +99,11 @@
     font-weight: bold;
     color:black;
 }
-                    <!--del 2 Kontakt-->     
+ /*del 2 kontakt end*/  
+
+/*main end*/   
+
+/*footer start*/
 .footer-about-us{}
 
 .footer-section{ }
@@ -114,6 +111,8 @@
 .fa-brands-fa-facebook{}
 .fa-brands-fa-instagram{}
 .fa-solid-fa-location-dot{}
+
+/*footer end*/
         
 
 
