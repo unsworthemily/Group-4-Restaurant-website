@@ -70,7 +70,7 @@
     right: 45%;
     bottom: 500px;
     font-size: 60px;
-    color: ;
+    color: #874619;
 }
 .background-gallery img {
     max-width: 100%;
@@ -131,7 +131,8 @@ footer {
 .map-end-page {
     max-width: 700px;
     width: 100%;
-    height: 222px;
+    max-height: 222px;
+    height: 100%;
 }
 
 .end-of-page {
