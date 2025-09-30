@@ -95,8 +95,6 @@
     overflow: hidden;
 } 
 
-
-/*trying to change the images sizes*/
  .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .image7:hover, .image8:hover {
     opacity: 50%;
  }
@@ -107,6 +105,7 @@
     top: 110px;
     left: 300px;
     opacity: 100%;
+    z-index: 1;
 }
 .image2:active, .image4:active, .image6:active {
     width: 35%;
@@ -115,6 +114,7 @@
     top: 110px;
     left: 530px;
     opacity: 100%;
+    z-index: 1;
 }
 
 
