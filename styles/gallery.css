@@ -85,17 +85,22 @@
     width: 230px;
     height: 165px;
 }
+.image2, .image4, .image6 {
+    position: relative;
+    bottom: 75px;
+}
 .image-container2, .image-container4, .image-container6 {
     width: 230px;
     height: 165px; 
     overflow: hidden;
-} /*how do i get these centered?*/
+} 
+
 
 /*trying to change the images sizes*/
  .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .image7:hover, .image8:hover {
     opacity: 50%;
  }
-.image1:active, .image2:active, .image3:active, .image4:active, .image5:active, .image6:active, .image7:active, .image8:active {
+.image1:active, .image3:active, .image5:active, .image7:active, .image8:active {
     width: 65%;
     height: 80%;
     position: fixed; 
