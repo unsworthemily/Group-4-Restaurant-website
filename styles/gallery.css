@@ -1,0 +1,181 @@
+
+
+.navbar{
+    background: rgb(67, 9, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 100px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+  
+ li{
+    list-style: none;
+    display: inline-block;
+ }
+
+ li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-image: url(/images/newlogo.png);
+    background-color: beige;
+    margin-top: 10px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid black;
+}
+
+/* header end */
+
+.background-top {
+    height: 734px;
+    width: 100%;
+    /* max-width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-gallery {
+    max-width: 1080px;
+    width: 100%;
+    height: 480px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.h1-gallery { /* how can i get this centered? */
+    text-align: center;
+    position: absolute;
+    right: 45%;
+    bottom: 500px;
+    font-size: 60px;
+    color: #874619;
+}
+.background-gallery img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+}
+.image-container1, .image-container2, .image-container3, .image-container4, .image-container5, .image-container6, .image-container7, .image-container8 {
+    margin: 20px;
+}
+.image1, .image3, .image5, .image7, .image8 {
+    width: 230px;
+    height: 165px;
+}
+.image2, .image4, .image6 {
+    position: relative;
+    bottom: 75px;
+}
+.image-container2, .image-container4, .image-container6 {
+    width: 230px;
+    height: 165px; 
+    overflow: hidden;
+} 
+
+
+/*trying to change the images sizes*/
+ .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .image7:hover, .image8:hover {
+    opacity: 50%;
+ }
+.image1:active, .image3:active, .image5:active, .image7:active, .image8:active {
+    width: 65%;
+    height: 80%;
+    position: fixed; 
+    top: 110px;
+    left: 300px;
+    opacity: 100%;
+}
+.image2:active, .image4:active, .image6:active {
+    width: 35%;
+    height: 80%;
+    position: fixed; 
+    top: 110px;
+    left: 530px;
+    opacity: 100%;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+    height: 438px;
+    width: 100%;
+    background: rgb(67, 9, 9);;
+    position: relative;
+}
+.footer-content {
+    min-height: 276px;
+    width: 100%;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer-text {
+    height: 207px;
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+} 
+.address-footer {
+    text-align: left;
+}
+.footer-contact, .address-footer, .footer-mail-and-phone {
+    margin: 5px;
+    color: white;
+}
+.map-end-page {
+    max-width: 700px;
+    width: 100%;
+    max-height: 222px;
+    height: 100%;
+}
+
+.end-of-page {
+    height: 54px;
+    width: 100%;
+    background-color:  #171717;
+    position: absolute;
+    bottom: 0; /*if i make screen smaller it isnt at bottom?*/
+    display: flex;
+    justify-content: center;
+}
+.footer-p-container {
+    max-width: 1044px;
+    width: 100%;
+    height: 24px;
+}
+.footer-p {
+    color: #666;
+}
