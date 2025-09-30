@@ -1,0 +1,225 @@
+body {
+    display: flex; 
+    flex-direction: column;
+}
+
+/*start of sonals */ 
+.navbar{
+    background: rgb(67, 9, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 100px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+  
+ li{
+    list-style: none;
+    display: inline-block;
+ }
+
+ li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-image: url(/images/newlogo.png);
+    background-color: beige;
+    margin-top: 10px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid black;
+}
+/* end of sonals border*/
+
+
+
+
+
+/* header {
+    max-height: 400px;
+    overflow: hidden;
+} */
+.header-image {
+    background-image: url(/images/rise-contact-us\(1\).jpg);
+    width: 100%;
+    max-width: 100%;
+    min-height: 400px;
+    /* position: relative;
+    bottom: 110px;
+    right: 0px; */
+
+        /* max-height: 400px;
+    overflow: hidden; */
+}
+
+
+
+
+h1 {
+    color: #874619;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.info-container {
+    width: 100%;
+    height: 492px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.address, .mail-and-phone {
+    text-align: center;
+}
+.fa-brands {
+    font-size: 36px;
+}
+.title-contact-info {
+    margin-bottom: 0px;
+}
+
+
+
+.write-to-us-container {
+    width: 100%;
+    height: 410px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.write-to-us {
+    position: relative;
+    right: 500px;
+}
+.input-name, .input-email {
+    max-width: 491px;
+    width: 100%;
+    min-height: 17px;
+    padding: 16px;
+    background-color: #eeeeee;
+    border: none;
+}
+.input-name {
+    margin-right: 10px;
+}
+.input-email {
+    margin-left: 10px;
+}
+.message {
+    max-width: 1079px;
+    width: 100%;
+    min-height: 118px;
+    padding: 16px;
+    background-color: #eeeeee;
+    border: none;
+}
+.inputs {
+    max-width: 1111px;
+    width: 100%;
+   /* height: 410px; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.button {
+    position: relative;
+    left: 495px; /*ej screen adjustable*/
+    width: 127px;
+    height: 44px;
+    border-radius: 30px;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+
+.map {
+    width: 100%;
+    height: 506px;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* footer starts from here and all the rest down */
+
+footer {
+    height: 438px;
+    width: 100%;
+    background: rgb(67, 9, 9);;
+    position: relative;
+}
+.footer-content {
+    min-height: 276px;
+    width: 100%;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer-text {
+    height: 207px;
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+} 
+.address-footer {
+    text-align: left;
+}
+.footer-contact, .address-footer, .footer-mail-and-phone {
+    margin: 5px;
+    color: white;
+}
+.map-end-page {
+    max-width: 700px;
+    width: 100%;
+    height: 222px;
+}
+
+.end-of-page {
+    height: 54px;
+    width: 100%;
+    background-color:  #171717;
+    position: absolute;
+    bottom: 0; /*if i make screen smaller it isnt at bottom?*/
+    display: flex;
+    justify-content: center;
+}
+.footer-p-container {
+    max-width: 1044px;
+    width: 100%;
+    height: 24px;
+}
+.footer-p {
+    color: #666;
+}
+
