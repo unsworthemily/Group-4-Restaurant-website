@@ -35,6 +35,9 @@ html, body {
     font-weight: bold;
     margin-right: 25px;
 }
+li a:hover{
+    color: #171717;
+}
 
 .logo {
     height: 80px;
