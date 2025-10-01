@@ -92,6 +92,13 @@ h1 {
 .fa-brands {
     font-size: 36px;
 }
+.a2-fa-brands {
+    color: #171717;
+}
+.a2-fa-brands:hover {
+    color: #171717;
+    opacity: 80%;
+}
 .title-contact-info {
     margin-bottom: 0px;
 }
@@ -153,6 +160,12 @@ h1 {
     color: white;
     font-size: 20px;
 }
+.button:hover {
+    opacity: 80%;
+}
+.button:active {
+    opacity: 100%;
+}
 
 .map {
     width: 100%;
@@ -206,6 +219,19 @@ footer {
 }
 .fa-brands {
     font-size: 32px;
+}
+/* .fa-brands:hover {
+    color: white;
+} */
+.fa-brands:active {
+    color: #666;
+}
+.a-fa-brands:hover {
+    color: white;
+}
+.a-fa-brands {
+    text-decoration: none;
+    color: black;
 }
 
 .end-of-page {
