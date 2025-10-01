@@ -148,7 +148,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
 } 
 .address-footer {
     text-align: left;
@@ -187,11 +187,14 @@ footer {
     bottom: 0; 
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .footer-p-container {
     max-width: 1044px;
     width: 100%;
     height: 24px;
+    display: flex;
+    align-items: center;
 }
 .footer-p {
     color: #666;
