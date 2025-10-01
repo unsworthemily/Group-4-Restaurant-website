@@ -46,35 +46,44 @@ li a{
 /*main start*/  
  /*del 1 content start*/
 .content{display: flex;}
-.content-container{display: flex;
-flex-direction: column;
-justify-self: center;
-align-self: center;}
+.content-container{width: 100%;
+    height: 492px;
+    background-color: #ccc9c9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .top-content-container{color: black;
     font-size: 20px;
     font-weight: bold;
     margin-right: 25px;}
 .top-title-h1{
-    color: black;
-    font-size: 40px;
-    font-weight: bold;
-    margin-right: 25px;
+    color: #874619;
+    font-size: 60px;
+    margin-bottom: 0px;
+    
+
 }    
 .top-content-info-h2{color: black;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 23px;
+    font-weight: normal;
     margin-right: 25px;}
-.middle-container{color: black;
-    font-size: 20px;
-    font-weight: bold;
-    margin-right: 25px;}
+.middle-container{width: 100%;
+    height: 492px;
+    background-color: #ccc9c9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .middle-title-h2{color: black;
     font-size: 30px;
     font-weight: bold;
     margin-right: 25px;}
 .middle-info-p{color: black;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 23px;
+    font-weight: normal;
     margin-right: 25px;}
 .bottom-container{color: black;
     font-size: 20px;
@@ -82,15 +91,18 @@ align-self: center;}
     margin-right: 25px;}
 .bottom-title-h3{
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    margin-right: 25px;}
+    margin-right: 25px;
+    
+}
 .bottom-fonders-info-h4{color: black;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin-right: 25px;}
+
  /*footer start*/
- footer {
+footer {
     height: 438px;
     width: 100%;
     background: rgb(67, 9, 9);;
@@ -127,6 +139,7 @@ align-self: center;}
     width: 100%;
     height: 222px;
 }
+
 .end-of-page {
     height: 54px;
     width: 100%;
@@ -144,8 +157,6 @@ align-self: center;}
 .footer-p {
     color: #666;
 }
-
-        
 
 
 
