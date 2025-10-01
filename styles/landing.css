@@ -187,8 +187,7 @@ button:hover{
     align-items:center;
     padding: auto;
 }
-
- /* footer starts from here and all the rest down */
+/* footer starts from here and all the rest down */
 
 footer {
     height: 438px;
@@ -229,6 +228,19 @@ footer {
 }
 .fa-brands {
     font-size: 32px;
+}
+/* .fa-brands:hover {
+    color: white;
+} */
+.fa-brands:active {
+    color: #666;
+}
+.a-fa-brands:hover {
+    color: white;
+}
+.a-fa-brands {
+    text-decoration: none;
+    color: black;
 }
 
 .end-of-page {
