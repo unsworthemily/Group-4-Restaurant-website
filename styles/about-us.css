@@ -44,7 +44,51 @@ li a{
 }
 /*header end*/
 /*main start*/  
- /*del 2 content start*/
+ /*del 1 content start*/
+.content{display: flex;}
+.content-container{display: flex;
+flex-direction: column;
+justify-self: center;
+align-self: center;}
+.top-content-container{color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;}
+.top-title-h1{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 25px;
+}    
+.top-content-info-h2{color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;}
+.middle-container{color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;}
+.middle-title-h2{color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 25px;}
+.middle-info-p{color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;}
+.bottom-container{color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;}
+.bottom-title-h3{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;}
+.bottom-fonders-info-h4{color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;}
  /*footer start*/
  footer {
     height: 438px;
