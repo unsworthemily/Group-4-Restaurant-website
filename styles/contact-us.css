@@ -204,6 +204,11 @@ footer {
     width: 100%;
     height: 222px;
 }
+/*this is the change i made*/
+.fa-brands:last-of-type {
+    width: 32px;
+    height: 32px;
+}
 
 .end-of-page {
     height: 54px;
