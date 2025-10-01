@@ -1,6 +1,7 @@
 body {
     display: flex; 
     flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*start of sonals */ 
@@ -93,6 +94,7 @@ h1 {
 }
 .address, .mail-and-phone {
     text-align: center;
+    line-height: 1.5;
 }
 .fa-brands {
     font-size: 36px;
