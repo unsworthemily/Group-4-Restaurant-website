@@ -160,6 +160,9 @@ footer {
     width: 100%;
     height: 222px;
 }
+.fa-brands {
+    font-size: 32px;
+}
 
 .end-of-page {
     height: 54px;
