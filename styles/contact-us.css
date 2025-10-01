@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
  }
-  
+ 
  li{
     list-style: none;
     display: inline-block;
@@ -28,6 +28,10 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
+}
+li a:hover{
+    color: #171717;
+    background-color:gray;
 }
 
 .logo {
