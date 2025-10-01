@@ -37,6 +37,7 @@ html, body {
 }
 li a:hover{
     color: #171717;
+    background-color:gray;
 }
 
 .logo {
@@ -192,7 +193,7 @@ button:hover{
 footer {
     height: 438px;
     width: 100%;
-    background-color: rgb(67, 9, 9);
+    background: rgb(67, 9, 9);;
     position: relative;
 }
 .footer-content {
@@ -226,13 +227,16 @@ footer {
     width: 100%;
     height: 222px;
 }
+.fa-brands {
+    font-size: 32px;
+}
 
 .end-of-page {
     height: 54px;
     width: 100%;
-    background-color: #171717;
+    background-color:  #171717;
     position: absolute;
-    bottom: 0; /*if i make screen smaller it isnt at bottom?*/
+    bottom: 0; 
     display: flex;
     justify-content: center;
 }
